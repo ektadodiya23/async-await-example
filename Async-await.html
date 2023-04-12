@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Data </title>
+</head>
+<body>
+    <h3> #Example Of Async & Await function</h3>
+</body>
+
+<script>
+
+    // Basic example of Async.....Async function Return Promise
+
+
+    // Normal function.....
+    function Example(){
+        return "Example of basic function!"
+    }
+    console.log(Example());   
+               
+
+
+
+   // Async function (Return Promise).....
+     async function ExampleSec(){
+          return "Async Function Example"
+     }
+    console.log(ExampleSec());
+    
+
+
+
+    //  Async function with using then()....
+    async function test(){
+        return" call then() function!"
+    }
+    test().then((result)=>{
+        console.log(result);
+     document.write("Asyn Function with Then method:-" + result + "<br/>" + "<br/>")   
+    })
+
+
+        document.write("Example:-"+Example()+"<br/>" + "<br/>") 
+         document.write("Return Promise:-"+ExampleSec() + "<br/>" + "<br/>")  
+            
+  
+
+</script>
+</html>

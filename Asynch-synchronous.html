@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synchronous</title>
+</head>
+<body>
+    <h3>This is Example of asynch-synchronous : </h3>
+</body>
+
+<script>
+
+// this example of synchronous..
+    function example(){
+        document.write("For Loop of synchronous !" + "<br/>" + "<b/>") 
+
+        for(let index = 0 ; index < 5  ; index++){
+        const element = index; 
+        console.log("This is index Number :" , index)
+         document.write("This is index Number:", index + "<br/>" + "<br/>") 
+        }
+    }
+    example();
+    console.log("Example of synchronous !");
+
+
+
+    // example of asynchronous
+     setTimeout(()=>{
+        document.write("For Loop of asynchronous with 2s delay time!" + "<br/>" + "<b/>") 
+        for (let index = 0; index < 5 ; index++) {
+        const element = index;
+        console.log("This is index Number:", index)
+        document.write("This is index Number:", index + "<br/>" + "<br/>") 
+      }
+    },2000);
+     console.log("example of asynchronous !");
+
+
+</script>
+</html>

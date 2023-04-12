@@ -1,0 +1,39 @@
+[
+    {
+       
+        "name" : "Elvina panchal",
+        "age" : "24" , 
+        "city" : "Londan" 
+    },
+    {
+        "name" : "ishita jain",
+        "age" : "23" , 
+        "city" : "delhi"   
+    },
+    {
+        "name" : "palak jain",
+        "age" : "20" , 
+        "city" : "baroda"   
+    },
+       {
+        "name" : "kaveri shah",
+        "age" : "21" , 
+        "city" : "Goa"   
+    },
+
+       {
+        "name" : "John nike",
+        "age" : "22" , 
+        "city" : "Dubai"   
+    },
+
+       {
+         "name" : "mahi dodiya",
+         "age" : "12" , 
+        "city" : "Paris "
+    }
+]
+
+
+
+  

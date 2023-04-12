@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json data</title>
+</head>
+<body>
+    <h4>Fetch data using Async & await</h4>
+</body>
+<script>
+    // example async & await
+      async function Example(){
+         console.log("2 : number"); 
+        const response = await fetch("https://jsonplaceholder.typicode.com/users");
+        console.log("3 : number");
+        const student = await response.json();
+        return student;
+     }
+      console.log("1 : number");
+      document.write("1 : number" + "<br/>") 
+       let a = Example();
+      console.log("4 : number");
+      document.write("4 : number" + "<br/>") 
+      console.log(a);
+      document.write("Function Calling return promise Object "+a + "<br/>") 
+</script>
+
+</html>
